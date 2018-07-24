@@ -35,5 +35,9 @@ def turn(board)
   end
 end
 
-def play
+def play(board)
+  loop do
+    turn(board)
+    break
+  end
 end
